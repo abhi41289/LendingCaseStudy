@@ -5,8 +5,13 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+    - Python
+    - Numpy
+    - Panda
+    - SNS
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
+    - Analysis done by Abhishek Raj P and Praharika Reddy 
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -28,26 +33,31 @@ In this case study, you will use EDA to understand how consumer attributes and l
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion  : We need to categorize the people who are most likely to default on the loan amount
+    
+        - The above analysis with respect to the charged off loans. There is a more probability of defaulting when :
+        - Applicants taking loan for 'home improvement' and have income of 60k -70k
+        - Applicants whose home ownership is 'MORTGAGE and have income of 60-70k
+        - Applicants who receive interest at the rate of 21-24% and have an income of 70k-80k
+        - Applicants who have taken a loan in the range 30k - 35k and are charged interest rate of 15-17.5 %
+        - Applicants who have taken a loan for small business and the loan amount is greater than 14k
+        - Applicants whose home ownership is 'MORTGAGE and have loan of 14-16k
+        - When grade is F and loan amount is between 15k-20k
+        - When employment length is 10yrs and loan amount is 12k-14k
+        - When the loan is verified and loan amount is above 16k
+        - For grade G and interest rate above 20%
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- References if any
+    - https://towardsdatascience.com/an-extensive-guide-to-exploratory-data-analysis-ddd99a03199e
+    - https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/
+
 
 
 ## Contact
